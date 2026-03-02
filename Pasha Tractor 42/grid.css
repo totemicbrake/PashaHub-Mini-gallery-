@@ -21,7 +21,7 @@
 }
 
 .gryffindor {
-    color: darkgreen;
+    color: darkred;
     text-shadow: 0 0 2px white;
 }
 
@@ -41,4 +41,12 @@
 h2:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.char_artwork1:hover {
+    cursor: pointer;
+    position: relative;
+    transform: scale(1.5);
+    box-shadow: 0 0 5px red;
+    transition: 1s;
 }

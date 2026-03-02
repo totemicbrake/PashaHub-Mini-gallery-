@@ -23,3 +23,16 @@ header {
 header img {
     width: 200px;
 }
+
+a {
+    text-decoration: none;
+    color: white;   
+}
+
+a:hover {
+    cursor: pointer;
+    position: relative;
+    transform: scale(1.5);
+    box-shadow: 0 0 5px greenyellow;
+    transition: 1s;
+}
